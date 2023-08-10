@@ -91,7 +91,7 @@ body {
                 color: white;
                 font-family:Sans-serif;
                 font-weight: bolder;
-                font-size: 50px;
+                font-size: 40px;
                 letter-spacing: .02em; 
                 
 
@@ -100,7 +100,7 @@ body {
             {
                 
                 font-family:Sans-serif;
-                font-size: 25px;
+                font-size: 22px;
                 
                 color:#a9afc3;
                
@@ -285,15 +285,20 @@ body {
   {
     margin-top:50px;
   }
+  .m5
+  {
+    margin-top:-200px;
+  }
+  
   
  
         }
-        @media screen and (min-width: 992px) {
+        @media screen and (max-width: 992px) {
   
 
   .about1
   {
-    margin-top: -200px;
+    margin-top: 0;
       color: white;
       font-weight: 700px;
       font-size: 50px;
@@ -323,6 +328,58 @@ body {
   {
     margin-top:-80px;
   }
+  .m5
+  {
+    margin-top:-200px;
+  }
+  
+  
+  
+}
+@media screen and (max-width: 400px) {
+  
+
+  .about1
+  {
+    margin-top: 450px;
+      color: white;
+      font-weight: 700px;
+      font-size: 50px;
+      font-family: "poppins", Sans-serif;
+      letter-spacing: .02em; 
+      text-align: center;
+     
+  }
+  .about2
+  {
+    margin-top:-20px;
+      color:#a9afc3;
+      font-family:"Poppins", Sans-serif;
+      font-size: 17px;
+      font-weight: 700;
+      text-align: center;
+
+  }
+  .m1
+  {
+    margin-top:0px;
+  }
+  .m2
+  {
+    margin-top:0px;
+  }
+  .m3
+  {
+    margin-top:-80px;
+  }
+  .m5
+  {
+    margin-top:-50px;
+  }
+  .poppy
+  {
+    margin-top:0px 
+  }
   
   
 }
@@ -334,63 +391,68 @@ body {
 
 <body class="body" style="background-color: rgb(23, 22, 22);">
 
-    <nav class="navbar navbar-expand-xl navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand ms-5" href="#">
-            <span style="color:#ffc107;font-size: 40px;">S</span>
-            <span style="color:#2fbef6;font-size: 38px;">t</span>
-            <span style="color:#fd7e14;font-size: 38px;">a</span>
-            <span style="color:#28a745;font-size: 38px;">c</span>
-            <span style="color:#f76845;font-size: 38px;">k</span>
-            <span style="color:#ffc107;font-size: 40px;">X</span>
-            <span style="color:#2fbef6;font-size: 38px;">p</span>
-            <span style="color:#fd7e14;font-size: 38px;">e</span>
-            <span style="color:#28a745;font-size: 38px;">r</span>
-            <span style="color:#f76845;font-size: 38px;">t</span>
-            <span style="color:#28a745;font-size: 38px;">.</span>
-            <span style="color:#ffc107;font-size: 40px;">R</span>
-            <span style="color:#ffc107;font-size: 40px;">Z</span>
-            <span style="color:#2fbef6;font-size: 40px;">(</span>
-            <span style="color:#2fbef6;font-size: 40px;">)</span>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active home mx-3 mt-4 mt-xl-0 mt-xxl-0" aria-current="page" href="home.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link education mx-3" href="education.html">Education</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link experience mx-3" href="experience.html">Experience</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link services2 mx-3" href="services.html" >Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link contact mx-3 me-5 " href="contact.html" >Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-xl navbar-dark">
+    <div class="container-fluid align-item-center">
+      <a class="navbar-brand ms-0 ms-lg-5 " href="#">
+        <h1>
+        <strong style="color:#ffc107">S</strong>
+        <strong style="color:#2fbef6">t</strong>
+        <strong style="color:#fd7e14">a</strong>
+        <strong style="color:#28a745">c</strong>
+        <strong style="color:#f76845">k</strong>
+        <strong style="color:#ffc107">X</strong>
+        <strong style="color:#2fbef6">p</strong>
+        <strong style="color:#fd7e14">e</strong>
+        <strong style="color:#28a745">r</strong>
+        <strong style="color:#f76845">t</strong>
+        <strong style="color:#ffc107">.</strong>
+        <strong style="color:#2fbef6">R</strong>
+        <strong style="color:#fd7e14">Z</strong>
+        <strong style="color:#28a745">(</strong>
+        <strong style="color:#f76845">)</strong>
+       </h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <h6><span class="navbar-toggler-icon"></span></h6>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active home mx-3 mt-4 mt-xl-0 mt-xxl-0" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link education mx-3" href="education.html">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link experience mx-3" href="experience.html">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link services2 mx-3" href="services.html" >Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link contact mx-3 me-5 " href="contact.html" >Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+           
        <br><br> 
     <div id="top" class="top m1">
-    <div class="intro" style="margin-top:-200px;">
+    <div class="intro m5">
 
         <div class="intro-text-block intro1">
-            <div data-w-id="61626122-c83b-61b7-a383-426874c6b8e5" style=" color:white; font-size:40px;opacity:0;-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="intro-text">Hey, I&#x27;m 
+            <div data-w-id="61626122-c83b-61b7-a383-426874c6b8e5" style=" color:white; font-size:30px;opacity:0;-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="intro-text">Hey, I&#x27;m 
                 <strong class="emphasis-text" style="color:#ffc107;font-size:40px;">Rabia</strong>!</div>
     
     
-    <div data-w-id="53bb434b-7693-3590-1482-6bc85eee5809" style=" font-size:40px;color:white;-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="intro-text intro2">
+    <div data-w-id="53bb434b-7693-3590-1482-6bc85eee5809" style=" font-size:30px;color:white;-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="intro-text intro2">
         I&#x27;m a 
         <strong class="emphasis-text" style="color:#28a745;font-size:40px;">MERN Stack Developer</strong> working remotely from <strong class="emphasis-text" style="color:#2fbef6">Pakistan</strong>.</div>
         <div data-w-id="7599bb73-dbc9-70f2-0754-257f18aab24a" style=" font-size:40px;color:white;-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;font-size: 25px;" class="work intro3">Currently a web developer at 
-        <a href="https://www.uber.com/" target="_blank" class="company-link" style="color:#fd7e14 ;font-size: 40px;">WEB3GLE</a>.
+        <a href="https://www.uber.com/" target="_blank" class="company-link" style="color:#fd7e14 ;font-size: 40px; line-height: 1.5cm;">WEB3GLE</a>.
 
         <br><br><br>
 
@@ -420,27 +482,34 @@ body {
         
     
         <div class="container mt-xs-5 pt-xs-5 mt-sm-5 pt-sm-5" >
-            <h2 class=" about1 justify-content-center">About Me</h2><br>
-            <h6 class=" about2 " >
+            <h2 class=" about1 justify-content-center" style="color: white;font-weight: 700px;
+            font-size: 50px;
+            font-family: Sans-serif;
+            letter-spacing: .02em; 
+            text-align: center;">About Me</h2><br>
+            <h6 class=" about2 " style="color:#a9afc3;
+            font-family:Sans-serif;
+            font-size: 17px;
+            font-weight: 700;
+            text-align: center;">
                 MERN Stack Developer | React js | Node js | Express js | MongoDB
             </h6>
         </div>
-        <br><br><br><br>
+        <br><br><br>
         <div class="container" >
-            <div class="row">
+            <div class="row ">
 
-                <div class="col-lg-6 col-md-12 col-sm-12 pe-5 " >
-                    <img src="projects.png" class="float-right m2"
-                        style="background-repeat: no-repeat; 
-                        background-size: cover; width: 650px;  height:670px">
+                <div class="col-lg-6 col-md-12 col-sm-12 pe-5 mt-0 mt-xxl-5 mt-xl-5 mt-lg-5 mt-md-5 mt-sm-5" >
+                  
+                  <img src="about.png" class="pic1  ms-3 ms-sm-0 ms-md-5 ms-lg-5 ms-xl-5 ms-xxl-5 ps-3 ps-sm-5 ps-md-5 ps-lg-5 ps-xl-5 ps-xxl-5">
                             
                             
                          
                 </div>
                 
-            <div class="col-lg-6 col-md-12 col-sm-12 p-5 mh-90  mw-50 m3" style="background-color: rgb(23, 22, 22); border: 1px solid grey; ">
+            <div class="col-lg-6 col-md-12 col-sm-12 p-5 mh-90 mt-5 mt-sm-0 mt-md-0 mt-lg-0 mt-xl-0 mt-xxl-0 mw-50 m3" style="background-color: rgb(23, 22, 22); border: 1px solid grey; margin-top: -50px;">
               
-              <h2 class="poster-designing ">Hi There!</h2>
+              <h2 class="poster-designing2"style= "color:white">Hey folks!</h2>
               <h6 class="poster-designing-desc ">
                 I'm an experienced MERN Stack Software 
                 Engineer with a strong track record of delivering high-quality solutions. 
@@ -451,21 +520,19 @@ body {
             <br>
             <hr style="background-color:white; height: 1.5px;" class="mw-50"><br>
                 <div class="poster-designing-desc2 ">
-                    <h2 class="poster-designing2 ">PERSONAL INFO</h2>
+                    <h2 class="poster-designing2  " style="color:white">Personal Info</h2>
                    <div class="left">Name:<strong style="color:white"> Rabia Zubair</strong><br>
             
                     
-                
+  
                     Nationality:
                     <strong style="color:white"> PK</strong><br>
                  
-                    Open to work:
-                    <strong style="color:white"> Available</strong><br>
+                   
                     </div>
                    
                     <div class="right">Address:<strong style="color:white"> Sukkur, Pakistan</strong><br>
             
-                        Phone:<strong style="color:white"> +92 333 7836797</strong><br>
                     
                         Email:
                         <strong style="color:white"> rabiazubair949@gmail.com</strong><br>
